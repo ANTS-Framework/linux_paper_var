@@ -1,0 +1,5 @@
+---
+  - name: Setting printer locale as shell variable
+    template:
+        src: "lc_paper.sh.j2"
+        dest: "/etc/profile.d/lc_paper.sh"
